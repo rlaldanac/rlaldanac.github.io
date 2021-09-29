@@ -17,5 +17,5 @@ p, ul{
 }
 
 h1{
-    text-decoration: wavy rgb(48, 48, 54);
+    border: 10px solid rgb(234, 229, 215);
 }
