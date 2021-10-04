@@ -1,4 +1,5 @@
-.pixelart-to-css {
+/* https://css-tricks.com/fun-times-css-pixel-art/ */
+.pixelart {
     position: relative;
     box-shadow: 50px 10px 0 0 #432616, 
     60px 10px 0 0 #432616, 
