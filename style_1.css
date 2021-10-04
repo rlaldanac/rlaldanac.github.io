@@ -1,4 +1,8 @@
 /* https://css-tricks.com/fun-times-css-pixel-art/ */
+body{
+  padding: 20%;
+  position: relative;
+}
 .pixelart {
     position: relative;
     box-shadow: 50px 10px 0 0 #432616, 
