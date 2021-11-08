@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="stylin.css">
+        <title>Midterm Project</title>
+        <body>
+            <div class="topnav">
+                <a href="midterm_net_art_page_2.html">Previous Page</a>
+                <a href="midterm_net_art.html">Next Page</a>
+            </div>
+            <div class="eyes">
+                <div class="eye">
+                <div class="ball"></div>
+                </div>
+            </div>
+
+            <script>
+                var balls = document.getElementsByClassName("ball");
+                document.onmousemove = function(){
+                var x = event.clientX * 100 / window.innerWidth + "%";
+                var y = event.clientY * 100 / window.innerHeight + "%";
+                //event.clientX => get the horizontal coordinate of the mouse
+                //event.clientY => get the Vertical coordinate of the mouse
+                //window.innerWidth => get the browser width
+                //window.innerHeight => get the browser height
+            
+                for(var i=0;i<2;i++){
+                    balls[i].style.left = x;
+                    balls[i].style.top = y;
+                    balls[i].style.transform = "translate(-"+x+",-"+y+")";
+                }
+                }
+            </script>
+  
+        </body>
+</html>
