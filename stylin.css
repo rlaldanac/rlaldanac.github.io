@@ -122,8 +122,8 @@ h1 {
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
-  }
-  .eye{
+}
+.eye{
     width: 240px;
     height: 120px;
     background: #E7EAEE;
@@ -133,9 +133,9 @@ h1 {
     position: relative;
     overflow: hidden;
     animation: blink 3s infinite;
-  }
+}
   
-  .ball{
+.ball{
     width: 40px;
     height: 40px;
     background: #000;
@@ -145,29 +145,29 @@ h1 {
     transform: translate(-50%,-50%);
     border-radius: 50%;
     border: 15px solid #000;
-  }
+}
 
-  .topnav {
+.topnav {
     overflow: hidden;
     background-color: #363537;
-  }
+}
 
-  .topnav a {
+.topnav a {
     float: left;
     color: #E7EAEE;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #E7EAEE;
     color: black;
-  }
+}
 
   
-  @keyframes blink {
+@keyframes blink {
     90% {
       transform: none;
       animation-timing-function: ease-in;
@@ -178,5 +178,5 @@ h1 {
     100% {
       animation-timing-function: ease-out;
     }
-  }
+}
 
