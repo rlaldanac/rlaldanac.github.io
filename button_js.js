@@ -11,6 +11,7 @@ function rick_roll(){
     console.log("button clicked!!");
     theDiv.appendChild(the_video)
     the_video.setAttribute("src", "https://www.youtube.com/embed/dQw4w9WgXcQ")
+    the_video.setAttribute("autoplay", "1")
     the_video.setAttribute("width", "560px")
     the_video.setAttribute("height", "315px")
     //theBody.style.backgroundColor = "pink";
