@@ -13,6 +13,6 @@ function rick_roll(){
     the_video.setAttribute("src", "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1")
     the_video.setAttribute("autoplay", "1")
     the_video.setAttribute("width", "560px")
-    the_video.setAttribute("height", "315px"
+    the_video.setAttribute("height", "315px")
     
 }
