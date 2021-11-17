@@ -1,0 +1,38 @@
+body {
+    display:block;
+    font-family: monospace;
+   }
+   
+p {
+    font-size: 50px;
+}
+
+button {       
+    top: 50%;
+    left: 50%;
+    width: 75px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: Red;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   }
+
+button:hover {
+    background-color: black;
+   }
+
+div{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+#vid{
+    padding-top: 5%;
+}
