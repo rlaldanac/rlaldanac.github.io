@@ -2,6 +2,7 @@
 	<title> Strangers </title>
 	<link href="final_style.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <link rel="shortcut icon" href="https://64.media.tumblr.com/4bb4a6a3d453889d03d2b05c4581e920/1e9001dcddee13ce-cd/s250x400/abbd696cb4885f9df54591494ed5f32379c4b891.jpg">
 </head>
 
 <body, id="background_colors">
@@ -23,8 +24,15 @@
             when you cycle out to being strangers again? <br> <span, class= "underline">You never really stop knowing each other in 
             that way</span, class= "underline">. Maybe there’s no choice but to make them someone different in your mind, not the person 
             who knew your daily anxieties and what you looked like naked and what made you cry and how much you
-            loved them. <br><br> <span, class= "highlight">When our lives revolve around someone, they don’t just stop doing so</span, class= "highlight"> even if 
-            all that’s left is some semblance of their memory. There are always those bits that linger. <br>
+            loved them. <br><br> 
+            <span, class= "highlight">
+                <span class="popup" onclick="orbit_popup_func()"> When our lives revolve around someone, they don’t just stop doing so
+                    <span, class="popuptext", id="myPopup">
+                        <img src= "https://64.media.tumblr.com/1360e1a5fce4d3a30c631be1d7cb1ca0/fd3295f58ac0808e-52/s1280x1920/a0f49afb8b77155dafaa2034f328dfb8c55d09d1.jpg" width = "230px">
+                    </span>
+                </span, class="popup">
+            </span, class="highlight"> 
+            even if all that’s left is some semblance of their memory. There are always those bits that linger. <br>
             The memories that are impressed on the places you went and the things you said and <span, class= "underline">the songs you 
             listened to remain</span, class= "underline">.<br><br> We all eventually find ourselves standing in the checkout line, hearing 
             one of those songs come on and <span, class= "underline">realizing that we’re revolving around them again</span, class= "underline">. <span, class= "bold">And maybe we never stopped.</span, class= "bold"> 
@@ -46,7 +54,7 @@
             <br> <span, class= "highlight">Whether or not that hole will ever again include the person who made it that way… I don’t 
             know.</span, class= "highlight"> Whether or not anybody else can match the outline of someone who was so deeply impressed in you… 
             I don’t know that either. <br><br> We all start as strangers. The choices we make in terms of love 
-            are usually ones that seem inevitable anyway. <span, class= "bold"> We find people irrationally compelling.</span, class= "bold"> We find 
+            are usually ones that seem inevitable anyway. <a href="final_orange.html", class= "bold"> We find people irrationally compelling.</a></span, class= "bold"> We find 
             souls made of the same stuff ours are. We find <span, class= "highlight">classmates</span, class= "highlight"> and partners and neighbors and family friends 
             and cousins and sisters and our lives <span, class= "underline">intersect in a way that makes them feel like they couldn’t have 
             ever been separate</span, class= "underline">. <br> And this is lovely. But the <span, class= "bold">ease and access isn’t what we crave.</span, class= "bold"> It isn’t 
@@ -62,4 +70,10 @@
     </div>
     <center><h1>How The People We Once Loved Become Strangers Again</h1></center>
     <center><h2>Brianna Wiest</h2></center>
+    <script>
+        function orbit_popup_func() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
 </body>
