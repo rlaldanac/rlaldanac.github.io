@@ -1,0 +1,119 @@
+body {
+    font-family: 'EB Garamond';
+    background-color: rgb(213, 216, 216);
+
+}
+h1{
+    font-weight: 800;
+    font-stretch: narrower;
+    font-size: 250%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+h2{
+    margin-top: 0%;
+    padding-top: 0%;
+    font-weight: lighter;
+}
+#spacer{
+    padding-top: 8%;
+    margin-top: 15%;
+}
+p {
+    font-family: "EB Garamond";
+    font-style: normal; 
+    font-variant: normal; 
+
+}
+div{
+    
+    padding-left: 15%;
+    padding-right: 15%;
+}
+a:link {
+    color: black;
+  }
+  
+a:visited {
+    color: black;
+  }
+#main_body{
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.bold{
+    font-weight: 900;
+    /*<span, class= "bold"> </span, class= "bold">*/
+}
+
+.underline{
+    text-decoration: underline;
+    /*<span, class= "underline"> </span, class= "underline">*/
+}
+
+.highlight{
+    background-color: cadetblue;
+    /*<span, class= "highlight"> </span, class= "highlight">*/
+}
+
+.strikethrough{
+    text-decoration: line-through;
+    /*<span, class= "strikethrough"> </span, class= "strikethrough">*/
+}
+#poster, #imgClickAndChange{
+    height: 80vh;
+}
+
+#image_button{
+    height: 15vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10vh;
+    color: crimson;
+    border: none;
+    background: none;
+    padding: none;
+}
+.stars, .twinkling{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+  }
+  
+  .stars {
+    background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    z-index:0;
+  }
+  
+  .twinkling{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    z-index:1;
+  
+    -moz-animation:move-twink-back 200s linear infinite;
+    -ms-animation:move-twink-back 200s linear infinite;
+    -o-animation:move-twink-back 200s linear infinite;
+    -webkit-animation:move-twink-back 200s linear infinite;
+    animation:move-twink-back 200s linear infinite;
+  }
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}

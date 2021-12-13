@@ -1,0 +1,42 @@
+<head>
+	<title> I Believe </title>
+	<link href="final_style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+</head>
+<body, id="belief">
+    <center><div, id="poster">
+        <center>
+            <img alt="" src="https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODE4azFDTGJVYkwuX0FDX1NMMTUwMF8uanBn.jpg" 
+            id="imgClickAndChange" onclick="changeImage()"  />
+
+            <img id="this_pic" src=""></center>
+    </div></center>
+    <center><div>
+        <button id="image_button" onclick="changeImage()">
+            IN YOU
+        </button>
+    </div></center>
+</body>
+
+<script language="javascript">
+    console.log("button clicked")
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODE4azFDTGJVYkwuX0FDX1NMMTUwMF8uanBn.jpg") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://raw.githubusercontent.com/rlaldanac/rlaldanac.github.io/main/alien_love_wd_img.jpg";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange").src = "https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODE4azFDTGJVYkwuX0FDX1NMMTUwMF8uanBn.jpg";
+        }
+    }
+</script>
+<!--<style>
+    body {
+      background-image: url('https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODE4azFDTGJVYkwuX0FDX1NMMTUwMF8uanBn.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+</style>-->
