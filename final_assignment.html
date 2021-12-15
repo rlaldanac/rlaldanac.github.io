@@ -34,13 +34,18 @@
                 </span, class="popuptext">
                 </span, class="highlight popup"> 
             even if all that’s left is some semblance of their memory. There are always those bits that linger.<br> 
-            The memories that are impressed on the places you went and the things you said and <span, class= "underline">the songs you listened to remain.</span, class= "underline"> <br>
+            The memories that are impressed on the places you went and the things you said and 
+            <span, class= "underline popup" onclick="songs_popup_func()">the songs you listened to remain.
+                <span, class="popuptext", id="song_popup">
+                    <img src="https://raw.githubusercontent.com/rlaldanac/rlaldanac.github.io/main/IMG_6903.jpg" width="200px">
+                </span, class="popuptext">
+                </span, class= "underline popup"> <br>
             <br>
             We all eventually find ourselves standing in the checkout line, hearing one of those songs come on and 
             <span class="popup underline" onclick="orbit2_popup_func()"> realizing that we’re revolving around them again <span, class="popuptext", id="orbit_popup"><img src= "https://64.media.tumblr.com/3cb8814ffd4023d39eded84b0cc1ad43/fd3295f58ac0808e-1c/s1280x1920/9ccfab997af54d3e91f6a914ddf143eb50d91cbe.jpg" width = "230px"></span></span, class="popup">. 
             <span, class= "bold popup" onclick="stop_popup_func()">And maybe we never stopped.
             <span, class="popuptext", id="stop_popup">
-                but while i'm hopeful we’ll talk again<br>
+                but while not hopeful we’ll talk again<br>
                 im not certain we will<br>
                 but for the foreseeable ill keep saving the things that remind me of you 
             </span, class="popuptext">
@@ -178,6 +183,7 @@ I will love you as the iceberg loves the ship, and the passengers love the lifeb
             var popup14 = document.getElementById("stop_popup");
             var popup15 = document.getElementById("collision_popup");
             var popup16 = document.getElementById("expendable_popup");
+            var popup17 = document.getElementById("song_popup")
             popup1.classList.toggle("show");
             popup2.classList.toggle("show");
             popup3.classList.toggle("show");
@@ -194,6 +200,7 @@ I will love you as the iceberg loves the ship, and the passengers love the lifeb
             popup14.classList.toggle("show");
             popup15.classList.toggle("show");
             popup16.classList.toggle("show");
+            popup17.classList.toggle("show");
 
         }
         function orbit_popup_func() {
@@ -258,6 +265,10 @@ I will love you as the iceberg loves the ship, and the passengers love the lifeb
         }
         function expendable_popup_func() {
             var popup = document.getElementById("expendable_popup");
+            popup.classList.toggle("show");
+        }
+        function songs_popup_func() {
+            var popup = document.getElementById("song_popup");
             popup.classList.toggle("show");
         }
         </script>
